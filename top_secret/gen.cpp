@@ -4,7 +4,7 @@ int main()
 {
 	std::ofstream fout("../simple_calculator_on_python.py");
 	std::string operators = "+-*/";
-	const int range = 2000;
+	const int range = 500;
 	std::cout << "Start generation\n";
 	fout << "a = input()\n";
 	fout << "b = input()\n";
