@@ -6,9 +6,11 @@ int main()
 	std::string operators = "+-*/";
 	const int range = 500;
 	std::cout << "Start generation\n";
+	fout << "print('Введите первое значение')\n";
 	fout << "a = input()\n";
+	fout << "print('Введите второе значение')\n";
 	fout << "b = input()\n";
-	fout << "print('Р§С‚Рѕ РґРµР»Р°РµРј? +; -; *; /')\n";
+	fout << "print('Что делаем? +; -; *; /')\n";
 	fout << "c = input()\n";
 
 	for (int i = 0; i < 4; i++)
@@ -18,7 +20,7 @@ int main()
 		{
 			for (int k = 1; k <= range; k++)
 			{
-				fout << "\tif(a == " << j << " && b == " << k << "):\n";
+				fout << "\tif(a == " << j << " and b == " << k << "):\n";
 				switch (i)
 				{
 					case 0:
