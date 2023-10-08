@@ -1,6 +1,6 @@
 # **Calculator on Python**
 
-Hello, this is my first python program. I wrote a simple calculator in this language
+Hello, this is my first python program. I wrote a simple calculator in this language.
 Code turned out to be a little long, but I couldn't figure out how to make it shorter.
 
 # Run
